@@ -1,0 +1,43 @@
+[debug] [2022-01-30T16:38:15.229Z] ----------------------------------------------------------------------
+[debug] [2022-01-30T16:38:15.232Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SONIYA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-30T16:38:15.233Z] CLI Version:   10.1.2
+[debug] [2022-01-30T16:38:15.233Z] Platform:      win32
+[debug] [2022-01-30T16:38:15.233Z] Node Version:  v14.17.6
+[debug] [2022-01-30T16:38:15.235Z] Time:          Sun Jan 30 2022 22:08:15 GMT+0530 (India Standard Time)
+[debug] [2022-01-30T16:38:15.235Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-30T16:38:15.245Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-30T16:38:15.245Z] > authorizing via signed-in user (soniya.karamchandani.che20@itbhu.ac.in)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\SONIYA\OneDrive\Desktop\Whatsapp\whatsapp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-30T16:38:44.781Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-01-30T16:38:50.979Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-01-30T16:38:50.979Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project whatsapp-clone-b7a25 (Whatsapp Clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2022-01-30T16:39:29.855Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-01-30T16:39:30.355Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-01-30T16:39:30.355Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.6.5","browserURL":"https://www.gstatic.com/firebasejs/9.6.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.6.5/firebase.tgz"},"live":{"version":"9.6","browserURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.6.5/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.6.5/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.6.5/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.6.5/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.6.5/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.6.5/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.6.5/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.6.5/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.6.5/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.6.5/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.6.5/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.6.5/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.6.5/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.6.5/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.6.5/firebase-firestore.memory.js"}}
